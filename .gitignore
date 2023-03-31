@@ -1,2 +1,4 @@
 /target/
 /img/
+/.idea/
+/src/main/resources/sql/
