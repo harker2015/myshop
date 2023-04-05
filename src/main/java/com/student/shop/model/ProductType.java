@@ -16,7 +16,7 @@ import javax.persistence.*;
 @Setter
 @Getter
 @Entity
-@Table(name = "t_producttype")
+@Table(name = "tbl_producttype")
 public class ProductType extends AbstractEntity {
 
 	@Column(columnDefinition="VARCHAR(32) NOT NULL COMMENT '分类名称'")

@@ -17,7 +17,7 @@ import javax.persistence.*;
 @Setter
 @Getter
 @Entity
-@Table(name = "t_admin")
+@Table(name = "tbl_admin")
 public class Admin extends AbstractEntity {
 
 	@Column(columnDefinition="VARCHAR(16) NOT NULL COMMENT '用户名'")

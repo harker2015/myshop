@@ -18,7 +18,7 @@ import javax.persistence.*;
 @Entity
 @Setter
 @Getter
-@Table(name = "t_announcement")
+@Table(name = "tbl_announcement")
 public class Announcement extends AbstractEntity {
 
     @Column(columnDefinition="VARCHAR(512) NOT NULL COMMENT '公告内容'")

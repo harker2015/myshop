@@ -17,7 +17,7 @@ import javax.persistence.*;
 @Setter
 @Getter
 @Entity
-@Table(name = "t_orderitem")
+@Table(name = "tbl_orderitem")
 public class OrderItem extends AbstractEntity {
 
 	@OneToOne

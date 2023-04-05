@@ -19,7 +19,7 @@ import java.util.List;
 @Setter
 @Getter
 @Entity
-@Table(name = "t_order")
+@Table(name = "tbl_order")
 public class Order extends AbstractEntity {
 
     @Column(columnDefinition="VARCHAR(64) NOT NULL COMMENT '订单编号'")
